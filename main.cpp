@@ -1,7 +1,5 @@
 #include <iostream>
-
-// declaration
-int factorial(int n);
+#include "my_functions.hpp"
 
 // entry point
 int main() {
@@ -10,16 +8,4 @@ int main() {
   std::cout << "The value of 5! is " << factorial(5) << std::endl;
 
   return 0;
-}
-
-// definition
-int factorial(int n) {
-
-  int res = 1;
-  for(int i = 1; i <= n; i++) {
-    res = res * i;
-  }
-
-  return res;
-
 }
