@@ -1,3 +1,5 @@
+#include "my_functions.hpp"
+
 // definition
 int factorial(int n) {
 
